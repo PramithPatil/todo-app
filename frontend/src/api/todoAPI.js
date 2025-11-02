@@ -18,7 +18,7 @@ import axios from 'axios';
 // Base URL for the Flask backend API
 // In production, you'd use an environment variable: process.env.REACT_APP_API_URL
 // This allows different URLs for development, staging, and production without code changes
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
 
 /**
  * Fetch all todos from the backend.
