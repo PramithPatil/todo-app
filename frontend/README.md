@@ -505,4 +505,10 @@ This project is open source and available for educational purposes.
 
 ---
 
+📘 **Want a deeper look?**  
+Check out the full project walkthrough here → [**DETAILED_DOCUMENTATION.md**](./DETAILED_DOCUMENTATION.md)
+
+---
+
 **Built with ❤️ for technical assessment demonstration**
+
