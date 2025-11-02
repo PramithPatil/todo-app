@@ -43,46 +43,6 @@ It follows **modular clean code architecture** with strong separation of concern
 
 ---
 
-## 🏗 Folder Structure
-
-todo-app/
-├── backend/
-│ ├── app.py
-│ ├── config.py
-│ ├── models.py
-│ ├── requirements.txt
-│ ├── database/
-│ │ └── connection.py
-│ ├── routes/
-│ │ └── todo_routes.py
-│ ├── controllers/
-│ │ └── todo_controller.py
-│ └── .env
-│
-├── frontend/
-│ ├── package.json
-│ ├── public/
-│ │ └── index.html
-│ └── src/
-│ ├── App.js
-│ ├── index.js
-│ ├── components/
-│ │ ├── Header.js
-│ │ ├── TodoList.js
-│ │ ├── TodoItem.js
-│ │ ├── AddTodoForm.js
-│ │ └── EditModal.js
-│ ├── api/
-│ │ └── todoAPI.js
-│ └── styles/
-│ └── App.css
-└── README.md
-
-yaml
-Copy code
-
----
-
 ## ⚙️ Tech Stack
 
 **Frontend:** React, Axios, CSS3  
