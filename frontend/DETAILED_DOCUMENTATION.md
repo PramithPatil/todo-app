@@ -214,16 +214,12 @@ Cross-check Render backend logs for live API traffic
 📖 Documentation Add-ons
 /DETAILED_DOCUMENTATION.md → Extended guide
 
-/docs/ folder (optional) for structured developer docs
-
 Inline code comments explaining complex logic
 
 🧍‍♂️ Author Notes
 This project demonstrates full-stack development proficiency using Flask and React, focusing on clean architecture, UI polish, and practical deployability.
 
 GitHub: PramithPatil
-
-Email: (optional — you can add it)
 
 Built with ❤️ for learning and demonstration
 
