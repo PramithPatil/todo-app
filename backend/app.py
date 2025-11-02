@@ -29,7 +29,7 @@ app.config.from_object(Config)
 # with this backend API (running on localhost:5000). Without CORS, browsers block these requests
 # for security reasons. We're explicitly allowing all origins in development, but in production,
 # you'd want to restrict this to your actual frontend domain.
-CORS(app, resources={r"/api/*": {"origins": "*"}})
+CORS(app, origins=["https://todo-app-weld-one-94.vercel.app"])
 
 # Initialize the database with the Flask app context
 # SQLAlchemy needs to be bound to our Flask app to work properly with Flask's application context
